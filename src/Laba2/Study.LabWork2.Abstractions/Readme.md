@@ -10,11 +10,9 @@
   - [TotalExecutionTime](#P-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ExecutionResultDto`1-TotalExecutionTime 'Study.LabWork2.Abstractions.Feature.Task2.DtoModels.ExecutionResultDto`1.TotalExecutionTime')
   - [Version](#P-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ExecutionResultDto`1-Version 'Study.LabWork2.Abstractions.Feature.Task2.DtoModels.ExecutionResultDto`1.Version')
 - [INumberSetProcessor](#T-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-INumberSetProcessor 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.INumberSetProcessor')
-  - [GetResult()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-INumberSetProcessor-GetResult 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.INumberSetProcessor.GetResult')
-  - [Process()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-INumberSetProcessor-Process 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.INumberSetProcessor.Process')
+  - [Process()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-INumberSetProcessor-Process-System-Collections-Generic-IReadOnlyList{System-Collections-Generic-IReadOnlyList{System-Int32}},System-Int32- 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.INumberSetProcessor.Process(System.Collections.Generic.IReadOnlyList{System.Collections.Generic.IReadOnlyList{System.Int32}},System.Int32)')
 - [IPrimeCounter](#T-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-IPrimeCounter 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.IPrimeCounter')
-  - [CountPrimes(start,end,threadCount)](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-IPrimeCounter-CountPrimes-System-Int32,System-Int32,System-Int32- 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.IPrimeCounter.CountPrimes(System.Int32,System.Int32,System.Int32)')
-  - [GetVersionName()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-IPrimeCounter-GetVersionName 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.IPrimeCounter.GetVersionName')
+  - [CountPrimes()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-IPrimeCounter-CountPrimes-System-Int32,System-Int32,System-Int32- 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.IPrimeCounter.CountPrimes(System.Int32,System.Int32,System.Int32)')
 - [IRequestService](#T-Study-LabWork2-Abstractions-Feature-Task2-IRequestService 'Study.LabWork2.Abstractions.Feature.Task2.IRequestService')
   - [FetchData(url)](#M-Study-LabWork2-Abstractions-Feature-Task2-IRequestService-FetchData-System-String- 'Study.LabWork2.Abstractions.Feature.Task2.IRequestService.FetchData(System.String)')
   - [FetchDataAsync(url,cancellationToken)](#M-Study-LabWork2-Abstractions-Feature-Task2-IRequestService-FetchDataAsync-System-String,System-Threading-CancellationToken- 'Study.LabWork2.Abstractions.Feature.Task2.IRequestService.FetchDataAsync(System.String,System.Threading.CancellationToken)')
@@ -22,24 +20,20 @@
   - [ExecuteRequests\`\`1(servers)](#M-Study-LabWork2-Abstractions-Feature-Task2-IServerRequestApp-ExecuteRequests``1-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ServerConfigDto[]- 'Study.LabWork2.Abstractions.Feature.Task2.IServerRequestApp.ExecuteRequests``1(Study.LabWork2.Abstractions.Feature.Task2.DtoModels.ServerConfigDto[])')
   - [GetVersion()](#M-Study-LabWork2-Abstractions-Feature-Task2-IServerRequestApp-GetVersion 'Study.LabWork2.Abstractions.Feature.Task2.IServerRequestApp.GetVersion')
 - [PrimeCountResultDto](#T-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto')
-  - [ExecutionTime](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ExecutionTime 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.ExecutionTime')
-  - [FoundPrimes](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-FoundPrimes 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.FoundPrimes')
+  - [ElapsedTime](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ElapsedTime 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.ElapsedTime')
+  - [EndNumber](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-EndNumber 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.EndNumber')
   - [PrimeCount](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-PrimeCount 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.PrimeCount')
-  - [SynchronizationType](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-SynchronizationType 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.SynchronizationType')
+  - [StartNumber](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-StartNumber 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.StartNumber')
+  - [SynchronizationName](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-SynchronizationName 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.SynchronizationName')
   - [ThreadCount](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ThreadCount 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.ThreadCount')
-  - [IsValid(expectedCount)](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-IsValid-System-Int32- 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.IsValid(System.Int32)')
-  - [ToShortString()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ToShortString 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.ToShortString')
-  - [ToString()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ToString 'Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels.PrimeCountResultDto.ToString')
 - [ProcessingResultDto](#T-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ProcessingResultDto')
-  - [ExecutionTime](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-ExecutionTime 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ProcessingResultDto.ExecutionTime')
-  - [ProcessedSetsCount](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-ProcessedSetsCount 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ProcessingResultDto.ProcessedSetsCount')
+  - [ElapsedTime](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-ElapsedTime 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ProcessingResultDto.ElapsedTime')
   - [Results](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-Results 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ProcessingResultDto.Results')
   - [TotalSum](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-TotalSum 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ProcessingResultDto.TotalSum')
 - [ResultEntryDto](#T-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ResultEntryDto')
   - [SetNumber](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-SetNumber 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ResultEntryDto.SetNumber')
   - [Sum](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-Sum 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ResultEntryDto.Sum')
   - [ThreadId](#P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-ThreadId 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ResultEntryDto.ThreadId')
-  - [ToString()](#M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-ToString 'Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels.ResultEntryDto.ToString')
 - [ServerConfigDto](#T-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ServerConfigDto 'Study.LabWork2.Abstractions.Feature.Task2.DtoModels.ServerConfigDto')
   - [Body](#P-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ServerConfigDto-Body 'Study.LabWork2.Abstractions.Feature.Task2.DtoModels.ServerConfigDto.Body')
   - [Headers](#P-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ServerConfigDto-Headers 'Study.LabWork2.Abstractions.Feature.Task2.DtoModels.ServerConfigDto.Headers')
@@ -105,29 +99,14 @@ Study.LabWork2.Abstractions.Feature.Task1.SubTask2
 
 ##### Summary
 
-Определяет контракт для процессора наборов чисел
+Интерфейс обработчика наборов чисел
 
-<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-INumberSetProcessor-GetResult'></a>
-### GetResult() `method`
-
-##### Summary
-
-Возвращает результат обработки
-
-##### Returns
-
-Объект с результатами обработки
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-INumberSetProcessor-Process'></a>
+<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-INumberSetProcessor-Process-System-Collections-Generic-IReadOnlyList{System-Collections-Generic-IReadOnlyList{System-Int32}},System-Int32-'></a>
 ### Process() `method`
 
 ##### Summary
 
-Запускает процесс обработки наборов чисел
+Обработать наборы чисел
 
 ##### Parameters
 
@@ -142,33 +121,14 @@ Study.LabWork2.Abstractions.Feature.Task1.SubTask1
 
 ##### Summary
 
-Общий интерфейс для всех версий счетчика простых чисел
+Интерфейс сервиса подсчёта простых чисел
 
 <a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-IPrimeCounter-CountPrimes-System-Int32,System-Int32,System-Int32-'></a>
-### CountPrimes(start,end,threadCount) `method`
+### CountPrimes() `method`
 
 ##### Summary
 
-Запускает подсчет простых чисел в заданном диапазоне
-
-##### Returns
-
-Результат подсчета
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| start | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | Начало диапазона (включительно) |
-| end | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | Конец диапазона (включительно) |
-| threadCount | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | Количество потоков для подсчета |
-
-<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-IPrimeCounter-GetVersionName'></a>
-### GetVersionName() `method`
-
-##### Summary
-
-Возвращает название версии счетчика
+Подсчитать количество простых чисел
 
 ##### Parameters
 
@@ -272,118 +232,49 @@ Study.LabWork2.Abstractions.Feature.Task1.SubTask1.DtoModels
 
 ##### Summary
 
-Представляет результат подсчета простых чисел
+Результат подсчёта простых чисел
 
-<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ExecutionTime'></a>
-### ExecutionTime `property`
-
-##### Summary
-
-Время выполнения подсчета от начала до конца
-
-##### Remarks
-
-Измеряется с помощью Stopwatch с высоким разрешением.
-Включает время на создание потоков, проверку чисел и синхронизацию.
-
-<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-FoundPrimes'></a>
-### FoundPrimes `property`
+<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ElapsedTime'></a>
+### ElapsedTime `property`
 
 ##### Summary
 
-Список найденных простых чисел
+Время выполнения
 
-##### Remarks
+<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-EndNumber'></a>
+### EndNumber `property`
 
-Используется для отладки и проверки корректности подсчета.
-Может быть большим (до 1229 элементов), поэтому в production
-рекомендуется отключать сбор этой информации.
+##### Summary
+
+Конец диапазона
 
 <a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-PrimeCount'></a>
 ### PrimeCount `property`
 
 ##### Summary
 
-Количество найденных простых чисел в заданном диапазоне
+Количество найденных простых чисел
 
-##### Remarks
-
-Для диапазона 1-10000 ожидаемое значение: 1229 простых чисел
-Используется для проверки корректности работы алгоритма
-
-<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-SynchronizationType'></a>
-### SynchronizationType `property`
+<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-StartNumber'></a>
+### StartNumber `property`
 
 ##### Summary
 
-Тип используемой синхронизации
+Начало диапазона
 
-##### Remarks
+<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-SynchronizationName'></a>
+### SynchronizationName `property`
 
-Возможные значения:
-- "Monitor (lock)" - легковесная синхронизация на основе монитора
-- "Mutex" - синхронизация с использованием мьютекса
-- "Semaphore" - синхронизация с использованием семафора
+##### Summary
+
+Название способа синхронизации
 
 <a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ThreadCount'></a>
 ### ThreadCount `property`
 
 ##### Summary
 
-Количество потоков, использованных для параллельного подсчета
-
-##### Remarks
-
-Диапазон значений зависит от параметров запуска.
-Обычно используется 2-8 потоков для оптимальной производительности.
-
-<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-IsValid-System-Int32-'></a>
-### IsValid(expectedCount) `method`
-
-##### Summary
-
-Проверяет корректность подсчета
-
-##### Returns
-
-true, если подсчет выполнен корректно
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| expectedCount | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | Ожидаемое количество простых чисел |
-
-<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ToShortString'></a>
-### ToShortString() `method`
-
-##### Summary
-
-Возвращает краткое строковое представление для сравнения
-
-##### Returns
-
-Строка с ключевыми параметрами в компактном формате
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask1-DtoModels-PrimeCountResultDto-ToString'></a>
-### ToString() `method`
-
-##### Summary
-
-Возвращает форматированное строковое представление результата
-
-##### Returns
-
-Строка с информацией о типе синхронизации, количестве простых чисел,
-времени выполнения и количестве потоков
-
-##### Parameters
-
-This method has no parameters.
+Количество потоков
 
 <a name='T-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto'></a>
 ## ProcessingResultDto `type`
@@ -394,35 +285,28 @@ Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels
 
 ##### Summary
 
-Представляет результат обработки наборов чисел
+Результат обработки всех наборов чисел
 
-<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-ExecutionTime'></a>
-### ExecutionTime `property`
-
-##### Summary
-
-Время выполнения обработки
-
-<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-ProcessedSetsCount'></a>
-### ProcessedSetsCount `property`
+<a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-ElapsedTime'></a>
+### ElapsedTime `property`
 
 ##### Summary
 
-Количество обработанных наборов
+Время выполнения
 
 <a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-Results'></a>
 ### Results `property`
 
 ##### Summary
 
-Список результатов по каждому набору
+Результаты обработки наборов
 
 <a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ProcessingResultDto-TotalSum'></a>
 ### TotalSum `property`
 
 ##### Summary
 
-Общая сумма всех наборов
+Общий итог по всем наборам
 
 <a name='T-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto'></a>
 ## ResultEntryDto `type`
@@ -433,39 +317,28 @@ Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels
 
 ##### Summary
 
-Представляет результат обработки одного набора чисел
+Результат обработки одного набора чисел
 
 <a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-SetNumber'></a>
 ### SetNumber `property`
 
 ##### Summary
 
-Номер набора чисел (порядковый номер от 1 до 15)
+Номер набора
 
 <a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-Sum'></a>
 ### Sum `property`
 
 ##### Summary
 
-Сумма всех чисел в наборе
+Сумма чисел набора
 
 <a name='P-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-ThreadId'></a>
 ### ThreadId `property`
 
 ##### Summary
 
-Идентификатор управляемого потока, выполнившего обработку набора
-
-<a name='M-Study-LabWork2-Abstractions-Feature-Task1-SubTask2-DtoModels-ResultEntryDto-ToString'></a>
-### ToString() `method`
-
-##### Summary
-
-Возвращает строковое представление результата обработки
-
-##### Parameters
-
-This method has no parameters.
+Номер потока
 
 <a name='T-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ServerConfigDto'></a>
 ## ServerConfigDto `type`

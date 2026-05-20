@@ -1,30 +1,22 @@
 namespace Study.LabWork2.Abstractions.Feature.Task1.SubTask2.DtoModels;
 
 /// <summary>
-/// Представляет результат обработки одного набора чисел
+/// Результат обработки одного набора чисел
 /// </summary>
-public sealed record ResultEntryDto
+public sealed class ResultEntryDto
 {
     /// <summary>
-    /// Номер набора чисел (порядковый номер от 1 до 15)
+    /// Номер набора
     /// </summary>
-    public int SetNumber { get; init; }
+    public int SetNumber { get; set; }
 
     /// <summary>
-    /// Сумма всех чисел в наборе
+    /// Сумма чисел набора
     /// </summary>
-    public int Sum { get; init; }
+    public int Sum { get; set; }
 
     /// <summary>
-    /// Идентификатор управляемого потока, выполнившего обработку набора
+    /// Номер потока
     /// </summary>
-    public int ThreadId { get; init; }
-
-    /// <summary>
-    /// Возвращает строковое представление результата обработки
-    /// </summary>
-    public override string ToString()
-    {
-        return $"Набор {SetNumber}: сумма = {Sum} (поток {ThreadId})";
-    }
+    public int ThreadId { get; set; }
 }
