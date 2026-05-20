@@ -8,6 +8,9 @@
 - [MonitorService](#T-Study-LabWork2-Feature-Task1-SubTask1-MonitorService 'Study.LabWork2.Feature.Task1.SubTask1.MonitorService')
 - [MutexService](#T-Study-LabWork2-Feature-Task1-SubTask1-MutexService 'Study.LabWork2.Feature.Task1.SubTask1.MutexService')
 - [NumberSetProcessor](#T-Study-LabWork2-Feature-Task1-SubTask2-NumberSetProcessor 'Study.LabWork2.Feature.Task1.SubTask2.NumberSetProcessor')
+- [Program](#T-Study-LabWork2-Program 'Study.LabWork2.Program')
+  - [RUN_TASK_NUMBER](#F-Study-LabWork2-Program-RUN_TASK_NUMBER 'Study.LabWork2.Program.RUN_TASK_NUMBER')
+  - [Main()](#M-Study-LabWork2-Program-Main 'Study.LabWork2.Program.Main')
 - [SemaphoreService](#T-Study-LabWork2-Feature-Task1-SubTask1-SemaphoreService 'Study.LabWork2.Feature.Task1.SubTask1.SemaphoreService')
 - [SynchronousServerRequestApp](#T-Study-LabWork2-Feature-Task2-SynchronousServerRequestApp 'Study.LabWork2.Feature.Task2.SynchronousServerRequestApp')
 
@@ -42,7 +45,7 @@ Study.LabWork2.Feature.Task1.SubTask1
 
 ##### Summary
 
-Версия 1. Использует Monitor (lock) для синхронизации
+Сервис подсчёта простых чисел с использованием Monitor
 
 <a name='T-Study-LabWork2-Feature-Task1-SubTask1-MutexService'></a>
 ## MutexService `type`
@@ -53,7 +56,7 @@ Study.LabWork2.Feature.Task1.SubTask1
 
 ##### Summary
 
-Версия 2. Использует Mutex для синхронизации
+Сервис подсчёта простых чисел с использованием Mutex
 
 <a name='T-Study-LabWork2-Feature-Task1-SubTask2-NumberSetProcessor'></a>
 ## NumberSetProcessor `type`
@@ -64,7 +67,36 @@ Study.LabWork2.Feature.Task1.SubTask2
 
 ##### Summary
 
-Определяет реализацию для процессора наборов чисел
+Обработчик наборов чисел
+
+<a name='T-Study-LabWork2-Program'></a>
+## Program `type`
+
+##### Namespace
+
+Study.LabWork2
+
+##### Summary
+
+Начальная точка входа
+
+<a name='F-Study-LabWork2-Program-RUN_TASK_NUMBER'></a>
+### RUN_TASK_NUMBER `constants`
+
+##### Summary
+
+Номер выполняемой задачи
+
+<a name='M-Study-LabWork2-Program-Main'></a>
+### Main() `method`
+
+##### Summary
+
+Старт программы
+
+##### Parameters
+
+This method has no parameters.
 
 <a name='T-Study-LabWork2-Feature-Task1-SubTask1-SemaphoreService'></a>
 ## SemaphoreService `type`
@@ -75,7 +107,7 @@ Study.LabWork2.Feature.Task1.SubTask1
 
 ##### Summary
 
-Версия 3. Использует Semaphore для синхронизации
+Сервис подсчёта простых чисел с использованием Semaphore
 
 <a name='T-Study-LabWork2-Feature-Task2-SynchronousServerRequestApp'></a>
 ## SynchronousServerRequestApp `type`
